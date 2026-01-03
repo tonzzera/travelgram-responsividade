@@ -1,0 +1,28 @@
+header {
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: auto;
+
+
+
+}
+
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    &>img:nth-child(4) {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+@media (width>=80em) {
+
+    header {
+        background-color: var(--shape-transparency);
+    }
+
+}

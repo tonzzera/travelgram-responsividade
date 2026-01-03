@@ -1,0 +1,75 @@
+/*preciso melhorar essa parte no codigo, esta com muito ruido e da pra enxugar*/
+
+.apresentation {
+    margin-top: 3rem;
+    display: grid;
+    gap: 2rem;
+
+
+    img {
+        width: 7.5rem;
+        height: 7.5rem;
+
+    }
+
+
+}
+
+.card-2 {
+    max-width: 18.25rem;
+}
+
+#about {
+    max-width: 17.5rem;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+
+
+
+@media (width>=80em) {
+    .apresentation {
+        max-width: 80rem;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .card {
+        max-width: 38rem;
+        display: flex;
+        gap: 2rem;
+        margin-right: auto;
+        align-items: center;
+        font: var(--p-md);
+
+
+
+        img {
+            width: 11rem;
+            height: 11rem;
+        }
+    }
+
+    .card-2 {
+        max-width: 28rem;
+
+        h1 {
+            margin-bottom: 1.5rem;
+            color: var(--text-color-primary);
+        }
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        margin-right: 7rem;
+    }
+}

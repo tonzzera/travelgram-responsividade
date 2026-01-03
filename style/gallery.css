@@ -1,0 +1,109 @@
+#gallery {
+    margin-inline: auto;
+
+    .pictures {
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 3rem;
+
+        img {
+            width: 22.5rem;
+            height: 22.5rem;
+        }
+    }
+
+}
+
+
+
+
+@media (width >=80em) {
+    #gallery {
+        margin-top: 5rem;
+
+
+        .pictures {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 1rem;
+            margin-inline: auto;
+
+            img {
+                width: 19.25rem;
+                height: 19.25rem;
+            }
+        }
+
+    }
+
+    /* =========================================================
+   WORKAROUND – RESPONSIVELY
+   Motivo: regras por classe não eram aplicadas corretamente
+   neste simulador. IDs forçam especificidade e reavaliação
+   do CSS. NÃO replicar esse padrão.
+   ========================================================= */
+
+    #image1 {
+        width: 19.25rem;
+        height: 19.25rem;
+    }
+
+    #image2 {
+        width: 19.25rem;
+        height: 19.25rem;
+    }
+
+    #image3 {
+        width: 19.25rem;
+        height: 19.25rem;
+    }
+
+    #image4 {
+        width: 19.25rem;
+        height: 19.25rem;
+    }
+
+    #image5 {
+        width: 19.25rem;
+        height: 19.25rem;
+    }
+
+    #image6 {
+        width: 19.25rem;
+        height: 19.25rem;
+    }
+
+    #image7 {
+        width: 19.25rem;
+        height: 19.25rem;
+    }
+
+    #image8 {
+        width: 19.25rem;
+        height: 19.25rem;
+    }
+
+    #image9 {
+        width: 19.25rem;
+        height: 19.25rem;
+    }
+
+    #image10 {
+        width: 19.25rem;
+        height: 19.25rem;
+    }
+
+    #image11 {
+        width: 19.25rem;
+        height: 19.25rem;
+    }
+
+    #image12 {
+        width: 19.25rem;
+        height: 19.25rem;
+    }
+
+}
