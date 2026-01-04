@@ -39,69 +39,7 @@
 
     }
 
-    /* =========================================================
-   WORKAROUND – RESPONSIVELY
-   Motivo: regras por classe não eram aplicadas corretamente
-   neste simulador. IDs forçam especificidade e reavaliação
-   do CSS. NÃO replicar esse padrão.
-   ========================================================= */
-
-    #image1 {
-        width: 19.25rem;
-        height: 19.25rem;
-    }
-
-    #image2 {
-        width: 19.25rem;
-        height: 19.25rem;
-    }
-
-    #image3 {
-        width: 19.25rem;
-        height: 19.25rem;
-    }
-
-    #image4 {
-        width: 19.25rem;
-        height: 19.25rem;
-    }
-
-    #image5 {
-        width: 19.25rem;
-        height: 19.25rem;
-    }
-
-    #image6 {
-        width: 19.25rem;
-        height: 19.25rem;
-    }
-
-    #image7 {
-        width: 19.25rem;
-        height: 19.25rem;
-    }
-
-    #image8 {
-        width: 19.25rem;
-        height: 19.25rem;
-    }
-
-    #image9 {
-        width: 19.25rem;
-        height: 19.25rem;
-    }
-
-    #image10 {
-        width: 19.25rem;
-        height: 19.25rem;
-    }
-
-    #image11 {
-        width: 19.25rem;
-        height: 19.25rem;
-    }
-
-    #image12 {
+    #gallery .pictures img {
         width: 19.25rem;
         height: 19.25rem;
     }
